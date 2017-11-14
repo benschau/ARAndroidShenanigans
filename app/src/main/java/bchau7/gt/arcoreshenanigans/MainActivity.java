@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements GLSurfaceView.Ren
         if (!mSession.isSupported(mConfig)) {
             Toast.makeText(this, "Your device doesn't support AR.", Toast.LENGTH_LONG);
             finish();
-            return;
+            return ;
         }
     }
 
